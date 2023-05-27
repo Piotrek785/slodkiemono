@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg">
+
+</div>
+
+    
+    <section class="zamówienia" id="zamówienia">
+        
+        <form action= > 
+            <h3>Złóż Zamówienie Tutaj!</h3>
+            <p>PROSIMY O WPISYWANIE PRAWDZIWYCH INFORMACJI, W PRZECIWNYM RAZIE NIE PRZYJMIEMY TWOJEGO ZAMÓWIENIA.</p>
+            <input type="text" not null name="imie" placeholder="Imię" id="zamówienie" class="box" maxlength="25">
+            <input type="text" name="nazwisko" placeholder="Nazwisko" id="zamówienie" class="box" maxlength="40">
+            <select input type="text" name="zamówienie" placeholder="Co zamawiasz?" id="zamówienie" class="box">
+                <option>tartaletka</option>
+                <option>sernik</option>
+                <option>monotartaletka</option>
+                <option>Tort</option>
+              </select>
+
+                <input type="number" name="ilosc" placeholder="W jakiej ilości?" id="zamówienie" class="box">
+            <input type="date" name="data" placeholder="data" id="zamówienie" class="box">
+            <input type="time" name="godzina" placeholder="Na którą godzinę?" id="zamówienie" class="box" maxlength="9" >
+            <input type="number" name="numertelefonu" placeholder="Numer telefonu" id="zamówienie" class="box" maxlength="13">
+            <input type="text" name="uwagi "placeholder="Dodatkowe uwagi do zamówienia" id="zamówienie" class="box" maxlength="200" > 
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="basic">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+        
+           <p> (skontaktujemy się z toba poprzez numer telefonu w celu potwierdzenia twojego zamówienia).</p>
+            <button type="submit" class="box2">Potwierdź Zamówienie</button>
+          
+        </form>
+    </section>
+</body>
+</html>
