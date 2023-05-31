@@ -26,9 +26,7 @@ padding:0;
 </head>
 
 <body>
-    <div id="order-confirmation" class="hidden">
-        <h1>WYSŁANO ZAMÓWIENIE!</h1>
-      </div>
+
 <body style="background-color:#c2b280"></body>
 
     <!-- header section start here  -->
@@ -38,16 +36,26 @@ padding:0;
                
             <h1 class="logoName">SłodkieMono </h1>
         </div>
+        <nav class="navbar">
 
+            <a href="#product4">Torty</a>
+            <a href="#product">Monoporcje</a>
+            <a href="#product3">Ciasta</a>
+            <a href="#product2">Monodesery</a>
+      
+          
+
+        </nav>
    
 
         <div class="icon">
             <i class="" id="search"></i>
             <i class="fas fa-bars" id="menu-bar"></i>
+       
         </div>
 
         <div class="search">
-            
+            <i class="fas fa-bars" id="menu-bar"></i>
         </div>
     </header>
     
@@ -198,7 +206,7 @@ padding:0;
     
                     </div>
                     <div class="product-content">
-                        <section class="product2" id="product2">
+                        <section class="product3" id="product3">
                             <div class="heading">
                 
                                 <h4>CIASTA</h4>
@@ -271,7 +279,110 @@ padding:0;
                           
                     
                                     </div>
-                                   
+                                    
+                                    <div class="product-content">
+                                        <section class="product4" id="product4">
+                                            <div class="heading">
+                                
+                                                <h4>TORTY</h4>
+                                        
+                                                        </div>
+                                                        <div class="product-content">
+                                        <div class="swiper product-row">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide box">
+                                                    <div class="img">
+                                                        <img src="images/cake1.png" alt="">
+                                                    </div>
+                                                    <div class="product-content">
+                                                        <h3>1</h3>
+                                                        <p>Cena/Krótki opis</p>
+                                                        </p>
+                                                        <div class="orderNow">
+                                                       
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide box">
+                                                    <div class="img">
+                                                        <img src="images/cake1.png" alt="">
+                                                    </div>
+                                                    <div class="product-content">
+                                                        <h3>2</h3>
+                                                        <p>Cena/Krótki opis</p>
+                                                        </p>
+                                                        <div class="orderNow">
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide box">
+                                                    <div class="img">
+                                                        <img src="images/cake1.png" alt="">
+                                                    </div>
+                                                    <div class="product-content">
+                                                        <h3>3</h3>
+                                                        <p>Cena/Krótki opis</p>
+                                                        </p>
+                                                        <div class="orderNow">
+                                                          
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide box">
+                                                    <div class="img">
+                                                        <img src="images/cake2.png" alt="">
+                                                    </div>
+                                                    <div class="product-content">
+                                                        <h3>4</h3>
+                                                        <p>Cena/Krótki opis</p>
+                                                        </p>
+                                                        <div class="orderNow">
+                                                          
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                
+                                            </div>
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </section>
+                                
+                                    <section class="product2" id="product2">
+                                        <div class="heading">
+                                      
+                                          
+                                    
+                                                    </div>
+                                                    <section class="zamówienia" id="zamówienia">
+        
+                                                        <form action= , id="zamowienia"> 
+                                                            <h3>Złóż Zamówienie Tutaj!</h3>
+                                                            <p>PROSIMY O WPISYWANIE PRAWDZIWYCH INFORMACJI, W PRZECIWNYM RAZIE NIE PRZYJMIEMY TWOJEGO ZAMÓWIENIA.</p>
+                                                            <input type="text" not null name="imie" placeholder="Imię" id="zamówienie" class="box" maxlength="25">
+                                                            <input type="text" name="nazwisko" placeholder="Nazwisko" id="zamówienie" class="box" maxlength="40">
+                                                            <select input type="text" name="zamówienie" placeholder="Co zamawiasz?" id="zamówienie" class="box">
+                                                                <option>tartaletka</option>
+                                                                <option>sernik</option>
+                                                                <option>monotartaletka</option>
+                                                                <option>Tort</option>
+                                                              </select>
+                                                
+                                                                <input type="number" name="ilosc" placeholder="W jakiej ilości?" id="zamówienie" class="box">
+                                                            <input type="date" name="data" placeholder="data" id="zamówienie" class="box">
+                                                            <input type="time" name="godzina" placeholder="Na którą godzinę?" id="zamówienie" class="box" maxlength="9" >
+                                                            <input type="number" name="numertelefonu" placeholder="Numer telefonu" id="zamówienie" class="box" maxlength="13">
+                                                            <input type="text" name="uwagi "placeholder="Dodatkowe uwagi do zamówienia" id="zamówienie" class="box" maxlength="200" > 
+                                                            <input type="hidden" name="_captcha" value="false">
+                                                            <input type="hidden" name="_template" value="basic">
+                                                            <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                                                        
+                                                           <p> (skontaktujemy się z toba poprzez numer telefonu w celu potwierdzenia twojego zamówienia).</p>
+                                                           <br>
+                                                            <a href=index.html button type="submit" class="box2">Potwierdź Zamówienie</button>
+                                                          
+                                                        </form>
+                                                    </section>
                                     
 
 
@@ -291,52 +402,73 @@ padding:0;
           }, 1300);
         });
       </script>
+    
   
 
-    <footer class="footer" id="contact">
-        <div class="box-container">
-            <div class="mainBox">
-                <div class="content">
-                    
-                    
-                  
-                </div>
-
-               
+  <footer class="footer" id="contact">
+    <div class="box-container">
+        <div class="mainBox">
+            <div class="content">
+                <a href="#"><img src="images/logo.png" alt=""></a>
+                <h1 class="logoName"> SłodkieMono</h1>
             </div>
-            <div class="box">
-               
 
-            </div>
-      
-            <div class="box">
-                <h3>Kontakt </h3>
-                 <i class="fas fa-phone"></i> <a>+91 12222 34444</a>
-                 <br>
-                <i class="fas fa-envelope"></i> <a>cukiernia123@gmail.com</a>
-                <br>
-                <i class="fas fa-map"></i> <a>Piotrków Trybunalski, Ul. Romana Dmowskiego 30B</a>
-
-            </div>
+            <p>Serdecznie zapraszamy do naszej cukierni napewno nie pożałujesz, zaskakujące smaki monotartaletek, tortów i deserów.</p>
 
         </div>
-        <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-tiktok"></a>
+        <div class="box">
+            <h3>Oferta</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i>Strona główna</a>
+            <a href="#product"> <i class="fas fa-arrow-right"></i>Menu</a>
+            <a href="#zamowienia"> <i class="fas fa-arrow-right"></i>Zamówienie</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>Lokalizacja</a>
+ 
+       
+
+        </div>
+        <div class="box">
+            <h3>Informacje</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i>Polityka prywatności</a> 
+            <a href="#"> <i class="fas fa-arrow-right"></i>Regulamin naszej strony</a>
+        </div>
+        <div class="box">
+            <h3>Kontakt</h3>
+             <i class="fas fa-phone"></i> +48 99999999999</a>
+             <br><br>
+             <i class="fas fa-envelope"></i> Cukierniaslodkiemono@gmail.com</a>
+             <br><br>
+             <i class="fas fa-map"></i> Piotrków Trybunalski, ul. Romana Dmowskiego 38b</a>
+        </div>
+
+    </div>
+  
+    <div class="maps">
+        <h1>Znajdziesz nas tutaj!</h1>
+        <br>
+        <p> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.0826403680658!2d19.66819637645133!3d51.401536218431666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47198a98eef87895%3A0x913d5777b3454580!2sRomana%20Dmowskiego%2030b%2C%2097-300%20Piotrk%C3%B3w%20Trybunalski!5e0!3m2!1spl!2spl!4v1685569838440!5m2!1spl!2spl"  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </p>
+     </div>
          
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+       
+    </div>
+   
+    <div class="credit">
+        © 2023 Cukiernia SłodkieMono 
+    </div>
+</footer>
 
-        </div>
       
-    </footer>
-
-
  
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 
     <script src="index.js"></script>
 
+    
 
 </body>
 

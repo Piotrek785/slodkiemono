@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+
 :root{
-    --bezowy:#AF947E;
     --black: #1B1722;
     --white : #F0F0F0;
     --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -13,7 +13,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-   
+    text-transform: capitalize;
     transition: .2s linear;
 }
 html{
@@ -40,7 +40,7 @@ html::-webkit-scrollbar-thumb{
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    padding: 1.1rem 7%;
+    padding: 1.4rem 7%;
     z-index: 999;
 }
 .header .logoContent{
@@ -58,19 +58,17 @@ html::-webkit-scrollbar-thumb{
 
 .header .navbar a{
     font-size: 2rem;
-    margin-left: 3rem;
+    margin-right: 3rem;
     color: var(--black);
     font-weight: bold;
-
 }
 .header .navbar a:hover{
     border-bottom: .1rem solid var(--black);
-    padding-bottom: 3.34rem;
+    padding-bottom: .4rem;
 }
 .header .icon i{
     font-size: 2rem;
-   
-    margin-right: 82rem;
+    margin-right: 2rem;
     color: var(--black);
     cursor: pointer;
 }
@@ -84,7 +82,6 @@ html::-webkit-scrollbar-thumb{
     right: 0;
     height: 5rem;
     position:  absolute;
-
 }
 .header .search input{
     width: 100%;
@@ -101,7 +98,10 @@ html::-webkit-scrollbar-thumb{
     display: inline-block;
 }
 #menu-bar{
+   padding-right: 0rem;
     display: none;
+    margin-right: 7%;
+
 }
 
 
@@ -281,18 +281,24 @@ html::-webkit-scrollbar-thumb{
 
 
 .zamówienia{
-background-image: url(images/new.png); 
-width: 100%; 
-height: 100vh; 
+
+
 background-size: cover; 
 background-repeat: no-repeat; 
+
 
 
 }
 
 
 
+.icon{
 
+    padding-left: 22rem;
+    font-size: 22px;
+
+
+}
 .zamówienia form{
    
     text-align: center;
@@ -328,11 +334,10 @@ background-repeat: no-repeat;
 
 }
 .zamówienia form p{
-  margin-left:1rem;
+
     font-size: 1.1rem;  
     color: var(--white);
-    margin-left: 47rem;
-    max-width: 60rem;
+    text-align: center;
 
 }
 
@@ -419,33 +424,27 @@ background-color: var(--black);
     color: var(--black);
 }
 .footer .box-container .mainBox p{
-    font-size: 1.3rem;
-    line-height: 1.1;
-    margin-bottom: 0rem;
-    margin-top: 1rem;
-    
-   
+    font-size: 1.7rem;
+    line-height: 1.3;
+    margin-bottom: 2rem;
 }
-
 .footer .box-container .box h3{
-    padding-right:15rem;
     font-size: 2.2rem;
     color: var(--black);
-    
-  
-    
+    padding: 1rem 0;
 }
 .footer .box-container .box a{
-
+    display: block;
     font-size: 1.6rem;
     color: var(--black);
-    padding-left:1rem ;
+    padding: 1rem 0;
 }
-.footer .box-container .box i{
-    padding-right: 0rem ;
-    font-size: 1.6rem;
+.footer .box-container .box a i{
+    padding-right: .5rem;
     color: var(--black);
-   
+}
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
 }
 
 .footer .share{
@@ -475,7 +474,16 @@ background-color: var(--black);
     text-align: center;
     
 }
+iframe{
 
+  width: 100%;
+  height: 500px;
+  filter:brightness(100%)
+}
+.maps h1{
+    font-size: 4rem;
+    text-align: center;
+}
 
 
 .header h1 {
@@ -511,14 +519,16 @@ background-color: var(--black);
 @media (max-width:768px) {
     #menu-bar{
         display: inline-block;
+   
     }
     .header .navbar{
         position: absolute;
         top: 100%;
         right: -100%;
+     
         width: 25rem;
         background-color: var(--white);
-        height: 80vh;
+  
     }
     .header .navbar.active{
         right: 0;
@@ -535,6 +545,7 @@ background-color: var(--black);
         width: 90%;
     }
 }
+
 
 @media (max-width:600px){
     html{
